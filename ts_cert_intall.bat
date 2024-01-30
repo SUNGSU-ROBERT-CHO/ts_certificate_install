@@ -23,6 +23,7 @@ IF ["%RETURN_VALUE%"]==[""] (
 )
 
 echo Already Included RootCA : %RETURN_VALUE%
+pause
 
 :: Check Root Certificate
 :IsExistRootCA
